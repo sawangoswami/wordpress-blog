@@ -1,0 +1,280 @@
+.learndash-wrapper {
+	border: 4px solid rgba(213, 213, 213, 0.4);
+	padding: 15px 15px;
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+}
+
+
+
+.learndash-wrapper .wpProQuiz_content .wpProQuiz_certificate a.btn-blue,
+.learndash-wrapper .ld-course-status.ld-course-status-enrolled,
+.learndash-wrapper .ld-breadcrumbs,
+.learndash-wrapper .ld-lesson-status .ld-breadcrumbs {
+	background: rgba(167, 235, 242, 0.65);
+	font-weight: normal;
+}
+
+.wpProQuiz_quiz .wpProQuiz_list .wpProQuiz_listItem .wpProQuiz_response .wpProQuiz_correct span,
+.learndash-wrapper .ld-breadcrumbs .ld-breadcrumbs-segments span a {
+	font-weight: normal;
+	color: #000;	
+}
+
+.learndash-wrapper .ld-breadcrumbs .ld-breadcrumbs-segments span a:hover {
+	color: rgba(0, 93, 154);	
+}
+
+.learndash-wrapper .ld-breadcrumbs .ld-status.ld-status-complete,
+.learndash-wrapper .ld-course-status .ld-status.ld-status-progress,
+.learndash-wrapper .ld-breadcrumbs .ld-status.ld-status-progress {
+	background-color: rgba(0, 93, 154);
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.learndash-wrapper .ld-tabs .ld-tabs-navigation .ld-tab.ld-active::after {
+	background-color: rgb(61, 174, 56);
+}
+
+ 
+.learndash-wrapper .ld-tabs .ld-tabs-navigation .ld-tab.ld-active {
+	color: rgb(61, 174, 56);
+	font-weight: normal;
+}
+
+.learndash-wrapper .ld-tabs-content p {
+	font-size: 14px;
+}
+
+.wpProQuiz_quiz .wpProQuiz_list .wpProQuiz_question .wpProQuiz_question_text p {
+	font-size: 18px;
+	margin-left: 5px;
+}
+
+
+.wpProQuiz_questionList .wpProQuiz_questionListItem p strong {
+	color: rgb(0, 74, 109);
+	font-weight: normal;
+}
+
+
+.learndash-wrapper .wpProQuiz_content .wpProQuiz_questionListItem span.wpProQuiz_cloze {
+	border-radius: 1px;
+	margin: 5px;
+	
+}
+
+
+.wpProQuiz_list .wpProQuiz_question .wpProQuiz_questionList .wpProQuiz_questionListItem input[type="text"] {
+	height: 35px;
+}
+
+.learndash-wrapper .wpProQuiz_content .wpProQuiz_button, 
+.learndash-wrapper .wpProQuiz_content .wpProQuiz_button2,
+.learndash-wrapper .wpProQuiz_results .ld-quiz-actions .quiz_continue_link a#quiz_continue_link,
+.wpProQuiz_results .ld-quiz-actions input[name="reShowQuestion"],
+.wpProQuiz_results .ld-quiz-actions input[name="restartQuiz"],
+.wpProQuiz_content .wpProQuiz_text .wpProQuiz_button,
+.learndash-wrapper .ld-expand-button,
+.learndash-wrapper .ld-item-list .ld-item-list-item .ld-item-details .ld-expand-button {
+	color: white;
+	background-color: rgb(36, 187, 234, 0.8);
+	border-radius: 4px;
+	width: auto;
+	font-size: 14px;
+	padding: 10px 15px;
+	border: 1px solid white;
+	font-weight: normal;
+	border: 1px solid rgb(1, 122, 167, 0.5);
+	
+}
+.learndash-wrapper .ld-expand-button, 
+.learndash-wrapper .ld-item-list .ld-item-list-item .ld-item-details .ld-expand-button{
+	min-width: 150px;
+}
+.learndash-wrapper .wpProQuiz_content .wpProQuiz_button:hover, 
+.learndash-wrapper .wpProQuiz_content .wpProQuiz_button2:hover,
+.learndash-wrapper .wpProQuiz_results .ld-quiz-actions .quiz_continue_link a#quiz_continue_link:hover,
+.wpProQuiz_results .ld-quiz-actions .wpProQuiz_button_reShowQuestion:hover,
+.wpProQuiz_results .ld-quiz-actions .wpProQuiz_button_restartQuiz:hover,
+.wpProQuiz_content .wpProQuiz_text .wpProQuiz_button:hover {
+	color: #fff;
+	border: 1px solid rgb(1, 122, 167) !important;
+	background-color: rgb(36, 187, 234, 1);
+}
+
+
+.learndash-wrapper .wpProQuiz_results .ld-quiz-actions .quiz_continue_link a#quiz_continue_link,
+.wpProQuiz_results .ld-quiz-actions input[name="reShowQuestion"],
+.wpProQuiz_results .ld-quiz-actions input[name="restartQuiz"] {
+	font-size:	
+}
+
+.learndash-wrapper .ld-item-list.ld-lesson-list .ld-section-heading h2,
+.wpProQuiz_content .wpProQuiz_sending > div,
+.wpProQuiz_content .wpProQuiz_sending .wpProQuiz_header,
+.learndash-wrapper .wpProQuiz_content .wpProQuiz_results .wpProQuiz_header {
+	font-weight: normal;
+	font-size: 20px;
+}
+
+.entry-content .wpProQuiz_content p {
+	font-size: 16px;	
+}
+
+
+.learndash-wrapper .wpProQuiz_results .wpProQuiz_quiz_time {
+	color: rgba(1, 122, 167, 0.8);
+	font-weight: normal;
+}
+
+
+.learndash-wrapper .wpProQuiz_content .wpProQuiz_list .wpProQuiz_listItem .wpProQuiz_response, 
+.learndash-wrapper .wpProQuiz_content .wpProQuiz_points {
+	background-color: rgba(0, 181, 249, 0.2);
+	border-radius: 5px;
+	border: 1px solid rgba(1, 122, 167, 0.5);
+	color: #31332e;
+	font-weight: normal;
+	font-size: 16px;
+	padding: 10px;
+}
+
+
+.learndash-wrapper .wpProQuiz_content .wpProQuiz_response {
+	min-height: 0;
+	padding: 10px;
+}
+
+
+
+.learndash-wrapper .wpProQuiz_content .wpProQuiz_certificate a.btn-blue {
+	color: #000;
+	border-radius: 5px;
+	font-size:14px;
+	border: 1px solid RGB(247,224,119, 0.65) !important;
+}
+
+.learndash-wrapper .wpProQuiz_content .wpProQuiz_certificate a.btn-blue:hover {
+	color: RGB(255, 215, 33);
+	background-color: #FFF;
+}
+
+.learndash-wrapper .ld-item-list .ld-item-list-item {
+	border: 1px solid rgba(1, 122, 167, 0.5);	
+}
+
+.learndash-wrapper .ld-item-list .ld-item-list-item .ld-item-list-item-preview .ld-item-name {
+	color: #000;	
+	font-weight: normal;
+}
+
+.learndash-wrapper .ld-item-list .ld-item-list-item a.ld-item-name:hover {
+	color: rgb(0, 93, 154);	
+}
+
+.learndash-wrapper .ld-progress .ld-progress-heading .ld-progress-stats .ld-progress-percentage,
+.learndash-wrapper .ld-course-status .ld-progress .ld-progress-heading {
+	color: rgb(1, 122, 167);
+	border-radius: 0;
+	font-weight: normal;
+}
+
+
+.learndash-wrapper .ld-course-status .ld-progress .ld-progress-bar {
+	border-radius: 0;
+}
+
+.learndash-wrapper .course_progress .sending_progress_bar,
+.learndash-wrapper .ld-progress .ld-progress-bar .ld-progress-bar-percentage {
+	background: rgb(1, 122, 167);	
+
+}
+
+.ld-item-list .ld-section-heading h2 {
+	
+}
+
+.ld-item-list .ld-item-list-items {
+	
+}
+
+
+/* Lesson */
+
+.learndash-wrapper .ld-breadcrumbs {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+
+.ld-breadcrumbs-segments span a {
+	
+}
+
+
+.learndash-wrapper .ld-breadcrumbs .ld-status.ld-status-progress {
+	
+}
+
+.learndash-wrapper .ld-tabs .ld-tabs-navigation .ld-tab {
+	font-weight: normal;
+}
+
+
+.learndash-wrapper .ld-tabs .ld-tabs-navigation .ld-tab.ld-active {
+
+}
+
+.learndash-wrapper .ld-tabs .ld-tab-content {
+	
+}
+
+.learndash-wrapper .ld-content-action .sfwd-mark-complete .learndash_mark_complete_button {
+	background-color: RGB(247,224,119);
+	border-radius: 5px;	
+	margin-bottom: 10px;
+	border: 1px solid white;
+	color: #000;
+}
+
+.learndash-wrapper .sfwd-mark-complete::after {
+	top: 35%;
+	color: #000;
+}
+
+.learndash-wrapper .sfwd-mark-complete:hover:after {
+	color: RGB(240, 216, 102);
+	opacity: .85;
+}
+.learndash-wrapper .ld-content-action .sfwd-mark-complete .learndash_mark_complete_button:hover {
+	text-decoration:none;
+	color: RGB(240, 216, 102);
+	background: #FFF;
+	border: 1px solid rgba(1, 122, 167);
+	opacity: 1;
+}
+
+
+.learndash-wrapper .ld-content-actions .ld-content-action .ld-course-step-back {
+	color: #000;
+}
+.learndash-wrapper .wpProQuiz_content .wpProQuiz_questionListItem .wpProQuiz_cloze{
+	background: transparent;
+	border-bottom: 1px solid #343637;
+}
+.learndash-wrapper .wpProQuiz_content .wpProQuiz_list .wpProQuiz_listItem .wpProQuiz_button:
+.learndash-wrapper .wpProQuiz_content .wpProQuiz_list .wpProQuiz_listItem .wpProQuiz_button:hover{
+
+}
+.learndash-wrapper .wpProQuiz_content .wpProQuiz_questionListItem.wpProQuiz_answerCorrect .wpProQuiz_sortable, 
+.learndash-wrapper .wpProQuiz_content .wpProQuiz_questionListItem.wpProQuiz_answerCorrect label {
+	background: transparent;
+	color: #00a2e8;
+}
+.learndash-wrapper .wpProQuiz_content .wpProQuiz_question {
+	padding-bottom: 0;
+	margin-top: 30px !important;
+}

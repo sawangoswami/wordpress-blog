@@ -1,0 +1,13 @@
+{
+  "dependencies": [
+    "wp-api-fetch",
+    "wp-components",
+    "wp-compose",
+    "wp-core-data",
+    "wp-data",
+    "wp-element",
+    "wp-i18n",
+    "wp-notices"
+  ],
+  "version": "fbe38fde4d73d1fb91c4850376488618"
+}

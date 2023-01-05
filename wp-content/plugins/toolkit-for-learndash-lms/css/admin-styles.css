@@ -1,0 +1,283 @@
+/* CSS Document */
+	a{
+		cursor:pointer;
+	}
+	div.tkflld_settings_div {
+	}
+	
+	.tkflld_settings_div .nav-tab-wrapper{
+	}
+	.tkflld_settings_div .nav-tab-wrapper a{
+		cursor:pointer;
+	}	
+	
+	li.current a[href="admin.php?page=tkflld"],
+	li.current:hover a[href="admin.php?page=tkflld"]{
+		color: rgba(255,193,7,1) !important;		
+	}
+	li.current:hover a[href="admin.php?page=tkflld"]{
+		color: rgba(255,193,7,0.8) !important;
+	}
+	
+	.tkflld_folders .tkflld_toolbar{
+		border-bottom:1px solid #999;
+		float:left;
+		width:100%;
+		padding: 0 10px;
+	}
+	.tkflld_folders .tkflld_toolbar ul li{
+		margin-right:4px;
+	}
+	.tkflld_folders .new-file {
+		font-size:12px;
+		padding: 0 0 0 2px;
+		cursor:pointer;
+		margin: 9px 8px 0 0px;
+		display: block;	
+	}
+	.tkflld_folders .new-file i{
+		font-size:16px;
+		margin-right:2px;
+	}
+	.tkflld_folders .new-folder {
+		cursor: pointer;
+		background: url('../img/folder.png') no-repeat;
+		background-position: 2px 0px;
+		padding: 0 0 0 22px;
+		font-size: 12px;
+		margin: 10px 8px 0 0px;
+		display: block;	
+	}
+	.tkflld_folders .back-folder{
+		cursor: pointer;
+		padding: 0 0 0 0;
+		font-size: 18px;	
+		margin: 8px 8px 0 0px;
+		display: block;	
+	}
+	.tkflld_folders .back-folder[data-id="0"]{
+		display:none;
+	}
+	.tkflld_folders .new-folder:hover,
+	.tkflld_folders .back-folder:hover,
+	.tkflld_folders .new-file:hover {
+		background-color:rgba(255,255,0, 0.3);
+		
+	}
+	.tkflld-wrapper{
+		margin:0px;
+		width: 100%;
+		padding: 10px;
+		background-color: #2c3338;
+		color: #fff;
+		float: left;
+		min-height: 600px;
+		overflow-y: visible;
+		overflow-x: hidden;
+		position: relative;
+		top: 0;
+		height: 100%;
+	}
+	.tkflld_list ul li > span {
+		float: left;
+		width: 100%;
+		height: 20px;
+		padding: 30px 0 0 25px;
+		position: relative;
+		background: transparent;
+		visibility:hidden;
+	}
+	.tkflld_list ul li:hover > span{
+		visibility:visible;
+	}
+
+	.wpd_action_span{
+	
+	}
+	
+	.tkflld-options{
+	}
+	.tkflld-options ul{
+	}
+	.tkflld-options ul li {
+		width: 100%;
+		float: left;
+	}
+	
+	.tkflld_move_folder_to{
+		display: none;
+	}
+	.tkflld_move_folder_to select {
+		border: 1px solid rgba(0,0,0,0.1);
+		margin: 4px 0 0 0;
+	}
+	
+	.tkflld_move_folder_to select:focus {
+	
+		border-color: transparent;
+		color: #016087;
+		box-shadow: 0 0 0 0 transparent;
+	}
+	.tkflld_move_folder_to button {
+		cursor: pointer;
+		position: relative;
+		top: 1px;
+		font-size: 12px;
+		padding: 2px 10px 4px 10px;
+		border-radius: 20px;
+		background: #6c757d;;
+		color: white;
+		border: 1px solid #6c757d;
+		margin: 4px 0 0 8px;
+	}
+	
+	.tkflld_move_folder_to button:hover {
+	
+		background: #5a6268;;
+		color: white;
+		border: 1px solid #5a6268;;
+	}
+	
+	.tkflld_in_action .tkflld-nav{
+		width: 100%;
+	}
+	
+	.tkflld_in_action .tkflld-nav .breadcrumb{
+	
+		margin: 0;
+	
+	}
+	.tkflld_list .ab-dir.ab-new {
+		background-color: rgba(233,212,96,0.3);
+		border-radius: 10px;
+	}
+	.tkflld-wrapper ul li.premium-features,
+	.tkflld-wrapper ul li.addon-features,
+	.tkflld-wrapper ul li.promotions {
+		border-top: 1px solid #b4b9be;
+		margin: 0px 0 40px;
+	}
+	.tkflld-wrapper ul li.premium-features:after,
+	.tkflld-wrapper ul li.addon-features:after,
+	.tkflld-wrapper ul li.promotions:after {
+		content: "Premium Features";
+		background-color: #b4b9be;
+		color: #000;
+		font-size: 12px;
+		padding: 0px 12px 2px;
+		float: right;
+		
+	}
+
+	.tkflld-wrapper ul li.addon-features {
+		float: right;
+		margin: 10px 0 0 0;
+	}
+	.tkflld-wrapper ul li.addon-features + li a {
+		display: block;
+		margin: 30px 0;
+		width:100%;
+		text-align:center;
+	}	
+	.tkflld-wrapper ul li.addon-features:after {
+		content: "Tabs Plugin for Docs";
+	}	
+	.tkflld-wrapper ul li.promotions:after {
+		content: "More Plugins";
+	}
+	.tkflld-wrapper ul li input[type="color"] {
+		padding: 0;
+		cursor: pointer;
+		position: relative;
+		top: 4px;
+		border: 0;
+		border-radius: 10px;
+		height: 18px;
+		width: 18px;
+		margin: 0 10px 0 0;
+	}
+	.tkflld_folders li select[name^="tkflld_roles"],
+	a.security_level {
+		position: relative;
+		top: 4px;
+		border: 0;
+		width: 222px;
+	}
+	a.security_level{
+		font-size:12px;
+		top:5px;
+	}
+	.tkflld_android {
+		position: absolute;
+		right: 20px;
+		top: 26px;
+	}
+	.tkflld-options ul li a.preview{
+		text-align:center;
+		width:100%;
+		display:block;
+		float:none;
+	}
+	.tkflld-options ul li a,
+	a.tkflld-tutorial{
+		float:right;
+		font-size:12px;
+		color:#b4b9be;
+		text-decoration:none;
+		position:relative;
+		top:4px;
+	}
+	.tkflld-options ul li label{
+		width:100%;
+	}
+	.tkflld-options ul li a:hover{
+		text-decoration:underline;
+	}
+	.toolkit-for-learndash-attribs{
+		
+	}
+	.toolkit-for-learndash-attribs b{
+		color:#b4b9be;
+		
+	}
+	.tkflld-customization{
+		float:left;
+		width:100%;
+	}
+	.tkflld-customization ul{
+		float:left;
+		width:100%;
+	}	
+	.tkflld-customization ul li{
+		position:relative;
+		float:left;
+		width:100%;
+	}		
+	.tkflld-customization ul li span.fa{
+		font-size:30px;
+		margin-right:20px;
+		float:left;
+	}			
+	.tkflld-customization ul li label{
+		float:left;
+		width:60%;
+	}
+	.tkflld-customization ul li input[type="text"]{
+		width:60px;
+		height:30px;
+	}
+	.tkflld-customization ul li label small{
+		margin-left:10px;
+	}
+	
+	.tkflld_active {
+		color: #fdfeff;
+		background-color: #6891bb;
+		border-color: #c8dff7;
+	}
+
+	.tkflld_skin_group img{
+		max-width: 600px;
+		height: auto;
+	}
+	
